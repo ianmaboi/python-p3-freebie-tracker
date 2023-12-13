@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-#!/usr/bin/env python3
 
 # from sqlalchemy import create_engine
 
@@ -45,3 +44,11 @@ hat = Freebie("Hat", 20, gitHub.id, wally.id)
 hat.save()
 pen = Freebie("Pen", 1, docusign.id, bill.id)
 pen.save()
+
+
+
+
+
+
+if __name__ == '__main__':
+    import ipdb; ipdb.set_trace()
